@@ -1,6 +1,3 @@
-//email= /^([a-z\d\.-]{3,})@([a-z]+)\.([a-z]{2,6})$/
-//password= /^(\.[a-z\A-Z\d]{,8})$/
-
 // select elements
 const inputs = document.querySelectorAll('input')
 const sendBtn = document.querySelector('#send-button')
