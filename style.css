@@ -1,0 +1,67 @@
+body{
+    background-color: #4E3244;
+}
+p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 18px;
+   
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+form > label {
+    text-align: left;
+    width: 300px;
+}
+label{
+    color: white;
+    margin-top: 10px;
+
+}
+
+
+.btn{
+    background-color: transparent;
+    padding: 15px;
+    width: 300px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+    text-transform: uppercase;
+    transition: all .5s ease-in-out
+}
+.btn:hover{
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+.buttons{
+    margin-top: 20px;
+}
+input{
+    background: transparent;
+    color: white;
+    margin-top: 5px;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid white;
+    width: 300px;
+    outline: none
+}
+.valid{
+    border: 3px solid green
+}
+.invalid{
+    border: 3px solid red
+}
